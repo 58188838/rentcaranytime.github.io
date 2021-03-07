@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            fieldset {  
+                         display: block;
+                         float:left;
+                         margin-left: 300px; 
+                         float: right;
+                         margin-right: 540px;
+                         margin-top: 150px;
+                         border: 5px groove;
+                         color: white;
+                         font-size: 20px;
+                         font-style: italic;
+                        
+                     }
+              .contact-title
+		{
+			color: #fff;
+                        float:left;
+                        margin-left: 570px;
+			text-transform: uppercase;
+			transition: all 4s ease-in-out;
+		}
+             .contact-title h1
+		{
+			font-size: 32px;
+			line-height: 10px;
+		}
+             .contact-title h2
+		{
+                        float: left;
+                        margin-left: -75px;
+			font-size: 16px;
+		}
+                .form-control
+		{
+			width: 100px;
+			background:transparent;
+			border:none;
+			outline: none;
+			border-bottom: 1px solid blue;
+			color: black;
+			font-size: 18px;
+			margin-bottom: 16px; 
+                        margin-left: 100px;
+		}
+                form .submit
+		{
+			background: white;
+			border-color: transparent;
+			color: black;
+			font-size: 20px;
+			font-weight: bold;
+			letter-spacing: 2px;
+			height: 25px;
+			margin-top: 20px;
+		}
+                form .submit:hover{
+			background-color: graytext;
+			cursor: pointer;
+		}
+        </style>
+    </head>
+    <body background='Images/toyota1.jpg'>
+        <div class="contact-title">
+	<h1>Say Hello</h1>
+	<h2>we are always ready to serve you!</h2>
+         </div>
+        
+        <form action="Validate" method="post">
+            <fieldset>
+            User name : &nbsp;&nbsp;<input type="text" name="username" /><br>
+            password :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="password" /><br>
+            <button type="submit" class="form-control submit">Login</button>
+            <button type="submit"><a href="updatepasword.html" style="text-decoration: none;">Update Password</a></button>
+            </fieldset>
+        </form>
+        
+    </body>
+</html>
